@@ -1,0 +1,89 @@
+﻿@model Test2.Models.user_entry
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_admindashboard.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>user_entry</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.comp_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.comp_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ctags)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ctags)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.caddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.caddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cemail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cemail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.caltemail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.caltemail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cmobile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cmobile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.caltmobile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.caltmobile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.addnotes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.addnotes)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

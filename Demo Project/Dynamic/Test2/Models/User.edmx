@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="dmdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="idea_approved">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="headings" Type="varchar" MaxLength="255" />
+          <Property Name="itags" Type="varchar" MaxLength="255" />
+          <Property Name="inotes" Type="varchar" MaxLength="5000" />
+        </EntityType>
+        <EntityType Name="idea_entry">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="headings" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="itags" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="inotes" Type="varchar" MaxLength="2555" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tags_master">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="tags" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="user_entry">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="comp_name" Type="varchar" MaxLength="255" />
+          <Property Name="ctags" Type="varchar" MaxLength="255" />
+          <Property Name="caddress" Type="varchar" MaxLength="255" />
+          <Property Name="cemail" Type="varchar" MaxLength="255" />
+          <Property Name="caltemail" Type="varchar" MaxLength="255" />
+          <Property Name="cmobile" Type="varchar" MaxLength="255" />
+          <Property Name="caltmobile" Type="varchar" MaxLength="255" />
+          <Property Name="addnotes" Type="varchar" MaxLength="3000" />
+        </EntityType>
+        <EntityType Name="user_log">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="username" Type="varchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="dmdbModelStoreContainer">
+          <EntitySet Name="idea_approved" EntityType="Self.idea_approved" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="idea_entry" EntityType="Self.idea_entry" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tags_master" EntityType="Self.tags_master" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user_entry" EntityType="Self.user_entry" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="user_log" EntityType="Self.user_log" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dmdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="idea_approved">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="headings" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="itags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="inotes" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="idea_entry">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="headings" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="itags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="inotes" Type="String" MaxLength="2555" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tags_master">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="tags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="user_entry">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="comp_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ctags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="caddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="cemail" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="caltemail" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="cmobile" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="caltmobile" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="addnotes" Type="String" MaxLength="3000" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="user_log">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="dmdbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="idea_approved" EntityType="Self.idea_approved" />
+          <EntitySet Name="idea_entry" EntityType="Self.idea_entry" />
+          <EntitySet Name="tags_master" EntityType="Self.tags_master" />
+          <EntitySet Name="user_entry" EntityType="Self.user_entry" />
+          <EntitySet Name="user_log" EntityType="Self.user_log" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dmdbModelStoreContainer" CdmEntityContainer="dmdbEntities">
+          <EntitySetMapping Name="idea_approved">
+            <EntityTypeMapping TypeName="dmdbModel.idea_approved">
+              <MappingFragment StoreEntitySet="idea_approved">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="headings" ColumnName="headings" />
+                <ScalarProperty Name="itags" ColumnName="itags" />
+                <ScalarProperty Name="inotes" ColumnName="inotes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="idea_entry">
+            <EntityTypeMapping TypeName="dmdbModel.idea_entry">
+              <MappingFragment StoreEntitySet="idea_entry">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="headings" ColumnName="headings" />
+                <ScalarProperty Name="itags" ColumnName="itags" />
+                <ScalarProperty Name="inotes" ColumnName="inotes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tags_master">
+            <EntityTypeMapping TypeName="dmdbModel.tags_master">
+              <MappingFragment StoreEntitySet="tags_master">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="tags" ColumnName="tags" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user_entry">
+            <EntityTypeMapping TypeName="dmdbModel.user_entry">
+              <MappingFragment StoreEntitySet="user_entry">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="comp_name" ColumnName="comp_name" />
+                <ScalarProperty Name="ctags" ColumnName="ctags" />
+                <ScalarProperty Name="caddress" ColumnName="caddress" />
+                <ScalarProperty Name="cemail" ColumnName="cemail" />
+                <ScalarProperty Name="caltemail" ColumnName="caltemail" />
+                <ScalarProperty Name="cmobile" ColumnName="cmobile" />
+                <ScalarProperty Name="caltmobile" ColumnName="caltmobile" />
+                <ScalarProperty Name="addnotes" ColumnName="addnotes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user_log">
+            <EntityTypeMapping TypeName="dmdbModel.user_log">
+              <MappingFragment StoreEntitySet="user_log">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="username" ColumnName="username" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

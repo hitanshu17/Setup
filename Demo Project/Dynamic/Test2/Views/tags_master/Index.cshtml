@@ -1,0 +1,153 @@
+﻿@model IEnumerable<Test2.Models.tags_master>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_admindashboard.cshtml";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+    #data {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #data td, #data th {
+            border: 1px solid #041215;
+            padding: 8px;
+        }
+
+        #data tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #data tr:hover {
+            background-color: #D1D6D6;
+        }
+
+        #data th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #698AE8;
+            color: #03090A;
+        }
+</style>
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Tag Manager</h1>
+    <a data-toggle="modal" data-target="#add" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-plus fa-sm text-white-50" data-toggle="tooltip" title="Add"></i></a>
+</div>
+
+<br />
+
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade" id="add" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Add Tags</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" id="tagname" name="tagname" class="form-control" placeholder="New Tag Name" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" id="save" value="Save" class="btn btn-primary" onclick="Savedata();" />
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!-- DataTales Example -->
+<div class="table-responsive">
+    <table id="data">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tags)
+                </td>
+                <td>
+                    @Html.ActionLink(" ", "Edit", new { id = item.id }, new { @class = "far fa-edit" })
+                    <i class="fa fa-trash sweet-5" data-toggle="tooltip" title="Delete" style="color:red" onclick="_gaq.push(['_trackEvent', 'example', 'try', 'sweet-5']);"></i>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<script>
+   
+
+
+
+    document.querySelector('.sweet-5').onclick = function () {
+        swal({
+            title: "Are you sure?",
+            text: "You will not be able to recover this imaginary file!",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonClass: 'btn-danger',
+            confirmButtonText: 'Delete',
+            cancelButtonText: "Cancel",
+            closeOnConfirm: false,
+            closeOnCancel: false
+        },
+            function (isConfirm) {
+                if (isConfirm) {
+                    swal("Deleted!", ":)", "success");
+                } else {
+                    swal("Cancelled", ":(", "error");
+                }
+            });
+    };
+
+    
+
+    function Savedata() {
+
+        var tagname = $("#tagname").val().trim();
+        ///  alert(tagname);
+        $.ajax({
+            type: "POST",
+            url: "/tags_master/Save",
+            data: '{tags: "' + tagname + '"}',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (r) {
+
+                alert("Sucess");
+                $('#myModal').modal('hide');
+                window.location.reload();
+
+
+            }
+        });
+
+
+    }
+
+</script>
+

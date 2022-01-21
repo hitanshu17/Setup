@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dmdbModelStoreContainer" CdmEntityContainer="dmdbEntities">
+    <EntitySetMapping Name="user_entry">
+      <EntityTypeMapping TypeName="dmdbModel.user_entry">
+        <MappingFragment StoreEntitySet="user_entry">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="comp_name" ColumnName="comp_name" />
+          <ScalarProperty Name="sector" ColumnName="sector" />
+          <ScalarProperty Name="addr" ColumnName="addr" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

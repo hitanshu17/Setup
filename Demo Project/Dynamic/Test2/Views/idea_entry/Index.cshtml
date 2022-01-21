@@ -1,0 +1,102 @@
+﻿@model IEnumerable<Test2.Models.idea_entry>
+
+@{
+    ViewBag.Title = "DbIdeaView";
+    Layout = "~/Views/Shared/_admindashboard.cshtml";
+}
+
+<style>
+    #data {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #data td, #data th {
+            border: 1px solid #041215;
+            padding: 8px;
+        }
+
+        #data tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #data tr:hover {
+            background-color: #D1D6D6;
+        }
+
+        #data th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #698AE8;
+            color: #03090A;
+        }
+</style>
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">Idea Manager</h1>
+    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i></a>
+</div>
+
+<!-- DataTales Example -->
+<div class="table-responsive">
+    <table id="data">
+        <thead>
+            <tr>
+                <th>Heading</th>
+                <th>Tag</th>
+                <th>Idea</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.headings)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.itags)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.inotes)
+                </td>
+                <td>
+                    @Html.ActionLink(" ", "Edit", new { id = item.id }, new { @class = "far fa-edit" }) |
+                    @Html.ActionLink(" ", "Delete", new { id = item.id }, new { @class = "far fa-trash-alt" })
+                </td>
+            </tr>
+
+        }
+
+    </table>
+</div>
+
+
+<script>
+
+
+    $(document).ready(function () {
+
+
+        $.ajax({
+            type: 'POST',
+               url: '@Url.Action("tagdrop")',
+            dataType: 'json',
+            success: function (partyl) {
+                $.each(partyl, function (i, party) {
+                    $("tagname").append('<option value="' + party.Value + '">' + party.Text + '</option>');
+                });
+
+            },
+
+            error: function (ex) {
+                alert("Failed To Retrieve !" + ex);
+            }
+        });
+        return false;
+    })
+
+</script>

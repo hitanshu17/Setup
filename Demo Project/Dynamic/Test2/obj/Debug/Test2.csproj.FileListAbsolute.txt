@@ -1,0 +1,228 @@
+C:\Users\Admin\source\repos\Test2\Test2\bin\Test2.dll.config
+C:\Users\Admin\source\repos\Test2\Test2\bin\Test2.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\Test2.pdb
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\csc.exe
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\csc.exe.config
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\csc.rsp
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\csi.exe
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\csi.exe.config
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\csi.rsp
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Console.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\vbc.exe
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\vbc.exe.config
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\vbc.rsp
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\source\repos\Test2\Test2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\source\repos\Test2\Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Helpers.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Mvc.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Razor.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Webpages.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Razor.xml
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Webpages.xml
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Helpers.xml
+C:\Users\Admin\source\repos\Test2\Test2\bin\System.Web.Mvc.xml
+C:\Users\Admin\source\repos\Test2\Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\source\repos\Test2\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Test2\Test2\obj\Debug\Test2.csproj.CopyComplete
+C:\Users\Admin\source\repos\Test2\Test2\obj\Debug\Test2.dll
+C:\Users\Admin\source\repos\Test2\Test2\obj\Debug\Test2.pdb
+C:\Users\Admin\source\repos\Test2\Test2\bin\EntityFramework.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\Test2\Test2\bin\EntityFramework.xml
+C:\Users\Admin\source\repos\Test2\Test2\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\Test2\Test2\obj\Debug\Test2.csprojAssemblyReference.cache
+H:\New folder\Test2\Test2\bin\Test2.dll.config
+H:\New folder\Test2\Test2\bin\Test2.dll
+H:\New folder\Test2\Test2\bin\Test2.pdb
+H:\New folder\Test2\Test2\bin\roslyn\csc.exe
+H:\New folder\Test2\Test2\bin\roslyn\csc.exe.config
+H:\New folder\Test2\Test2\bin\roslyn\csc.rsp
+H:\New folder\Test2\Test2\bin\roslyn\csi.exe
+H:\New folder\Test2\Test2\bin\roslyn\csi.exe.config
+H:\New folder\Test2\Test2\bin\roslyn\csi.rsp
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.Managed.Core.targets
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\New folder\Test2\Test2\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.AppContext.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Collections.Immutable.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Console.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Globalization.Calendars.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.IO.Compression.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.IO.Compression.ZipFile.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.IO.FileSystem.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Net.Http.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Net.Sockets.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Reflection.Metadata.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.ValueTuple.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Xml.XmlDocument.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Xml.XPath.dll
+H:\New folder\Test2\Test2\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\New folder\Test2\Test2\bin\roslyn\vbc.exe
+H:\New folder\Test2\Test2\bin\roslyn\vbc.exe.config
+H:\New folder\Test2\Test2\bin\roslyn\vbc.rsp
+H:\New folder\Test2\Test2\bin\roslyn\VBCSCompiler.exe
+H:\New folder\Test2\Test2\bin\roslyn\VBCSCompiler.exe.config
+H:\New folder\Test2\Test2\bin\EntityFramework.dll
+H:\New folder\Test2\Test2\bin\EntityFramework.SqlServer.dll
+H:\New folder\Test2\Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\New folder\Test2\Test2\bin\Microsoft.Web.Infrastructure.dll
+H:\New folder\Test2\Test2\bin\System.Web.Helpers.dll
+H:\New folder\Test2\Test2\bin\System.Web.Mvc.dll
+H:\New folder\Test2\Test2\bin\System.Web.Razor.dll
+H:\New folder\Test2\Test2\bin\System.Web.Webpages.Deployment.dll
+H:\New folder\Test2\Test2\bin\System.Web.Webpages.dll
+H:\New folder\Test2\Test2\bin\System.Web.Webpages.Razor.dll
+H:\New folder\Test2\Test2\bin\EntityFramework.xml
+H:\New folder\Test2\Test2\bin\EntityFramework.SqlServer.xml
+H:\New folder\Test2\Test2\bin\System.Web.Razor.xml
+H:\New folder\Test2\Test2\bin\System.Web.Webpages.xml
+H:\New folder\Test2\Test2\bin\System.Web.Webpages.Deployment.xml
+H:\New folder\Test2\Test2\bin\System.Web.Webpages.Razor.xml
+H:\New folder\Test2\Test2\bin\System.Web.Helpers.xml
+H:\New folder\Test2\Test2\bin\System.Web.Mvc.xml
+H:\New folder\Test2\Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\New folder\Test2\Test2\obj\Debug\Test2.csprojAssemblyReference.cache
+H:\New folder\Test2\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
+H:\New folder\Test2\Test2\obj\Debug\Test2.csproj.CopyComplete
+H:\New folder\Test2\Test2\obj\Debug\Test2.dll
+H:\New folder\Test2\Test2\obj\Debug\Test2.pdb
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\Test2.dll.config
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\Test2.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\Test2.pdb
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\csc.exe
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\csc.exe.config
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\csc.rsp
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\csi.exe
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\csi.exe.config
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\csi.rsp
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.Managed.Core.targets
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.AppContext.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Collections.Immutable.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Console.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Globalization.Calendars.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.IO.Compression.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.IO.Compression.ZipFile.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.IO.FileSystem.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Net.Http.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Net.Sockets.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Reflection.Metadata.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.ValueTuple.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Xml.XPath.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\vbc.exe
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\vbc.exe.config
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\vbc.rsp
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\VBCSCompiler.exe
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\roslyn\VBCSCompiler.exe.config
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\EntityFramework.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\EntityFramework.SqlServer.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\Microsoft.Web.Infrastructure.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Helpers.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Mvc.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Razor.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Webpages.Deployment.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Webpages.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Webpages.Razor.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\EntityFramework.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\EntityFramework.SqlServer.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Razor.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Webpages.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Webpages.Deployment.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Webpages.Razor.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Helpers.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\System.Web.Mvc.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Refrence Material\Demo Project\Dynamic\Test2\obj\Debug\Test2.csprojAssemblyReference.cache
+H:\Refrence Material\Demo Project\Dynamic\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
+H:\Refrence Material\Demo Project\Dynamic\Test2\obj\Debug\Test2.csproj.CopyComplete
+H:\Refrence Material\Demo Project\Dynamic\Test2\obj\Debug\Test2.dll
+H:\Refrence Material\Demo Project\Dynamic\Test2\obj\Debug\Test2.pdb

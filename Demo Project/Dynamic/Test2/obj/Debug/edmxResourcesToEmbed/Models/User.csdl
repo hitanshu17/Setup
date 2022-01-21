@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dmdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="idea_approved">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="headings" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="itags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="inotes" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="idea_entry">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="headings" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="itags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="inotes" Type="String" MaxLength="2555" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tags_master">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="user_entry">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="comp_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ctags" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="caddress" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cemail" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="caltemail" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cmobile" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="caltmobile" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="addnotes" Type="String" MaxLength="3000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="user_log">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="dmdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="idea_approved" EntityType="Self.idea_approved" />
+    <EntitySet Name="idea_entry" EntityType="Self.idea_entry" />
+    <EntitySet Name="tags_master" EntityType="Self.tags_master" />
+    <EntitySet Name="user_entry" EntityType="Self.user_entry" />
+    <EntitySet Name="user_log" EntityType="Self.user_log" />
+  </EntityContainer>
+</Schema>

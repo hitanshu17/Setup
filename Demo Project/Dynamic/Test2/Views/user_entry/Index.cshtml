@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Test2.Models.user_entry>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_admindashboard.cshtml";
+}
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+<style>
+    #data {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #data td, #data th {
+            border: 1px solid #041215;
+            padding: 8px;
+        }
+
+        #data tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #data tr:hover {
+            background-color: #D1D6D6;
+        }
+
+        #data th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #698AE8;
+            color: #03090A;
+        }
+</style>
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">DataBase Manager</h1>
+    <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i></a>
+</div>
+
+<!-- DataTales Example -->
+<div class="table-responsive">
+    <table id="data">
+        <thead>
+            <tr>
+                <th>Company's Name</th>
+                <th>Tag</th>
+                <th>Address</th>
+                <th>E-Mail</th>
+                <th>Alt E-Mail</th>
+                <th>Contact Number</th>
+                <th>Alt Contact Number</th>
+                <th>Additional Notes</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.comp_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ctags)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.caddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cemail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.caltemail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cmobile)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.caltmobile)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.addnotes)
+                </td>
+                <td>
+                    @Html.ActionLink(" ", "Edit", new { id = item.id }, new { @class = "far fa-edit" }) |
+                    @Html.ActionLink(" ", "Delete", new { id = item.id }, new { @class = "far fa-trash-alt" })
+                </td>
+            </tr>
+
+        }
+
+    </table>
+</div>
+
